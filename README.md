@@ -32,18 +32,22 @@ engineering**.
 
 This personal website includes:
 
-    **Home Section**
+**Home Section**
     -   Introduction
     -   Social media links
-    **About Me**
+
+**About Me**
     -   Background story
     -   Career transition
-    **Experience**
+
+**Experience**
     -   Education history
     -   Professional experience
-    **Projects**
+
+**Projects**
     -   Portfolio showcase
-    **Contact**
+
+**Contact**
     -   Contact form
     -   Social media connections
 
