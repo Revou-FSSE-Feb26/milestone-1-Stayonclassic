@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2AGu9A8s)
-=======
 # 🌐 Personal Website --- Leonardus Rio
 
 Personal portfolio website built to showcase my journey into **Software
@@ -121,4 +118,3 @@ Planned improvements for the website:
 -   Add dark mode
 -   Add animations and micro-interactions
 
->>>>>>> a7e6914 (Initial website deployment)
