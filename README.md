@@ -1,4 +1,4 @@
-# 🌐 Personal Website --- Leonardus Rio
+# Personal Website --- Leonardus Rio
 
 Personal portfolio website built to showcase my journey into **Software
 Engineering**, my background, projects, and experience.
@@ -8,7 +8,7 @@ industry into the tech world**, and documents my growth as a developer.
 
 ------------------------------------------------------------------------
 
-# 👨‍💻 About Me
+# About Me
 
 Hello! I am **Leonardus Rio**.
 
@@ -28,28 +28,28 @@ engineering**.
 
 ------------------------------------------------------------------------
 
-# 🚀 Features
+# Features
 
 This personal website includes:
 
-🏠 **Home Section**
+    **Home Section**
     -   Introduction
     -   Social media links
-👤 **About Me**
+    **About Me**
     -   Background story
     -   Career transition
-📚 **Experience**
+    **Experience**
     -   Education history
     -   Professional experience
-💻 **Projects**
+    **Projects**
     -   Portfolio showcase
-📩 **Contact**
+    **Contact**
     -   Contact form
     -   Social media connections
 
 ------------------------------------------------------------------------
 
-# 🛠 Tech Stack
+# Tech Stack
 
 This website is built using:
 
@@ -61,7 +61,7 @@ This website is built using:
 
 ------------------------------------------------------------------------
 
-# 📂 Project Structure
+# Project Structure
 
     Milestone-1-LeonardusRio
     │
@@ -78,7 +78,7 @@ This website is built using:
 
 ------------------------------------------------------------------------
 
-# ▶️ How to Run the Project
+# How to Run the Project
 
 1.  Clone this repository
 
@@ -90,16 +90,13 @@ git clone https://github.com/Revou-FSSE-Feb26/milestone-1-Stayonclassic.git
 
 3.  Run the website by opening:
 
-```{=html}
-<!-- -->
-```
     index.html
 
 in your browser.
 
 ------------------------------------------------------------------------
 
-# 🌍 Live Preview
+# Live Preview
 
 If deployed with **GitHub Pages**, the website can be accessed at:
 
@@ -108,7 +105,7 @@ If deployed with **GitHub Pages**, the website can be accessed at:
     
 ------------------------------------------------------------------------
 
-# 📌 Future Improvements
+# Future Improvements
 
 Planned improvements for the website:
 
