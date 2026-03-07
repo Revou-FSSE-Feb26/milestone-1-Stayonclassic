@@ -34,29 +34,30 @@
       </header>
 
     <!-- home section design -->
-     <section class="home" id="home">
+    <section class="home" id="home">
       <div class="home-content">
           <h3>Hello, I am</h3>
           <h1><span>Leonardus</span> Rio</h1>
           <h3>Future <span>Software Engineer</span></h3>
-          <p>"Life to Love, and Love what you life"</p>
-
+          <br><p><em>"Life to Love, and Love what you life"</em></p><br><br>
+          
+          <span class="find-text">Find me on:</span>
           <div class="social-media">
                 <a href="https://www.instagram.com/sweettoothyo/"><i class="bx bxl-instagram-alt" ></i></a>
-                 <a href="https://www.linkedin.com/in/leonardusrio/"><i class="bx bxl-linkedin" ></i></a>
-                  <a href="https://github.com/Stayonclassic"><i class="bx bxl-github" ></i></a>
+                <a href="https://www.linkedin.com/in/leonardusrio/"><i class="bx bxl-linkedin" ></i></a>
+                <a href="https://github.com/Stayonclassic"><i class="bx bxl-github" ></i></a>
           </div>
       </div>
 
       <div class="home-img">
-          <img src="images/home.png" alt="">
+          <img src="images/home.png" alt="home image">
       </div>
-     </section>
+    </section>
 
     <!-- aboutme section design -->
     <section class="about" id="about">
-    <div class="about-img">
-        <img src="images/about.png" alt="">
+      <div class="about-img">
+        <img src="images/about.png" alt="about image">
       </div>   
        
         
@@ -110,7 +111,7 @@
           </div>
         </div>
 
-      <div class="experience-column">
+        <div class="experience-column">
           <h3 class="title">Experience</h3>
 
           <div class="experience-box">
@@ -145,12 +146,12 @@
      </section>
 
     <!-- project section design -->
-     <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio">
         <h2 class="heading">My <span>Project</span></h2>
 
         <div class="portfolio-container">
           <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
+            <img src="images/portfolio1.jpg" alt="bibliopedia image project">
             <div class="portfolio-layer">
               <h4>Web Design</h4>
               <p>Bibliopedia.id is a WordPress-based website that includes blog and comment features.</p>
@@ -159,7 +160,7 @@
           </div>
 
           <div class="portfolio-box">
-            <img src="images/portfolio2.jpg" alt="">
+            <img src="images/portfolio2.jpg" alt="Belum Keisi Project">
             <div class="portfolio-layer">
               <h4>Not Yet</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ea!</p>
@@ -168,35 +169,52 @@
           </div>
 
           <div class="portfolio-box">
-            <img src="images/portfolio3.jpg" alt="">
+            <img src="images/portfolio3.jpg" alt="Belum Keisi Project">
             <div class="portfolio-layer">
               <h4>Not Yet</h4>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, possimus!</p>
               <a href="#"><i class='bx bx-link-external'></i></a>
             </div>
           </div>
-
         </div>
-     </section>
+    </section>
 
     <!-- contact section design -->
-     <section class="contact" id="contact">
+    <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="#">
+      <form>
         <div class="input-box">
-          <input type="text" placeholder="Full Name">
-          <input type="email" placeholder="Email Address">
+
+          <div class="field">
+            <label>Full Name</label>
+            <input required type="text" placeholder="Full Name">
+          </div>
+
+          <div class="field">
+            <label>Email Address</label>
+            <input required type="email" placeholder="Email Address">
+          </div>
+
+          <div class="field">
+            <label>Phone Number</label>
+            <input required type="tel" placeholder="Phone Number">
+          </div>
+
+          <div class="field">
+            <label>Subject</label>
+            <input required type="text" placeholder="Email Subject">
+          </div>
         </div>
 
-        <div class="input-box">
-          <input type="number" placeholder="Phone Number">
-          <input type="text" placeholder="Email Subject">
+        <div class="field">
+          <label>Your Message</label>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
         <input type="submit" value="Send Message" class="btn">
       </form>
-     </section>
+    </section>
 
     <!-- footer design -->
      <footer class="footer">
@@ -210,11 +228,5 @@
      </footer>
 
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- custom js -->
-    <script src="script.js"></script>
-
-     </body>
+  </body>
 </html>

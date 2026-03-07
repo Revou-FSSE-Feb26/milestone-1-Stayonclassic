@@ -34,15 +34,16 @@ This personal website includes:
 
 **Home Section**
     -   Introduction
-    -   Social media links
+    -   Social media links and icons
 
 **About Me**
     -   Background story
     -   Career transition
 
 **Experience**
-    -   Education history
-    -   Professional experience
+    -   Education history timeline
+    -   Professional experience timeline
+    -   hover effect portfolio
 
 **Projects**
     -   Portfolio showcase
@@ -73,6 +74,8 @@ This website is built using:
     │   ├── home.png
     │   ├── about.png
     │   ├── portfolio1.jpg
+    │   ├── portfolio2.jpg
+    │   ├── portfolio3.jpg
     │
     └── README.md
 
@@ -100,7 +103,7 @@ in your browser.
 
 If deployed with **GitHub Pages**, the website can be accessed at:
 
-        https://github.com/Stayonclassic/assignment1-deploy-rio
+        https://github.com/Revou-FSSE-Feb26/milestone-1-Stayonclassic.git
 
     
 ------------------------------------------------------------------------
