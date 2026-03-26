@@ -1,232 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Personal Website | Leonardus Rio</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- box icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <title>Personal Website | Leonardus Rio</title>
 
-    <!-- Brand Icons -->
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+  <!-- BOX ICONS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- BRAND ICONS -->
+  <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
 
-  <body>
-    <!-- header design -->
-      <header class="header">
-        <a href="#home" class="logo"><i class="bx bx-code-alt" ></i> Rio.</a>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+<body>
+  <!-- HEADER DESIGN -->
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="images/logo.png" alt="logo image">
+    </a>
 
-        <nav class="navbar">
-          <a href="#home" class="active">Home</a>
-          <a href="#about">About Me</a>
-          <a href="#experience">Experience</a>
-          <a href="#portfolio">Project</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+    <!-- MENU BURGER BUTTON -->
+    <i class='bx bx-menu' id="menu-icon"></i>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-      <div class="home-content">
-          <h1>Hello, I am</h1>
-          <h2><span>Leonardus</span> Rio</h2>
-          <h1>Future <span>Software Engineer</span></h1>
-          <br><p><em>"Life to Love, and Love what you life"</em></p><br><br>
-          
-          <span class="find-text">Find me on:</span>
-          <div class="social-media">
-                <a href="https://www.instagram.com/sweettoothyo/" target="_blank"><i class="bx bxl-instagram-alt" ></i></a>
-                <a href="https://www.linkedin.com/in/leonardusrio/" target="_blank"><i class="bx bxl-linkedin" ></i></a>
-                <a href="https://github.com/Stayonclassic" target="_blank"><i class="bx bxl-github" ></i></a>
-          </div>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#portfolio">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- SECTION 1 : HOME DESIGN -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hello, I am</h1>
+      <h2><span>Rio Leonardus</span></h2>
+      <h3>Future <span>Software Engineer</span></h3>
+      <br>
+      <p><em>"Combining design, logic, and performance to build digital experiences that are both powerful and
+      intuitive."</em></p><br><br>
+      
+      <!-- SOCIAL MEDIA ICON -->
+      <div class="social-media">
+        <h1><span>Find me on: </span></h1>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/sweettoothyo/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.linkedin.com/in/leonardusrio/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Stayonclassic" target="_blank"><i class="bx bxl-github"></i></a>
+        </div>
       </div>
 
-      <div class="home-img">
+    </div>
+
+    <!-- HOME IMAGE -->
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
           <img src="images/home.png" alt="home image">
+        </div>
       </div>
-    </section>
+    </div>
 
-    <!-- aboutme section design -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="images/about.png" alt="about image">
-      </div>   
-       
-        
-      <div class="about-content">
-        <h1 class="heading">About <span>Me</span></h1>
-        
-        <h2>Future Software Engineer</h2>
+  </section>
 
-        <p>My name is Leonardus Rio. I studied Information Systems in college in 2011. After graduating, I built my career in the Food and Beverage industry, where I worked until 2026.</p>
-
-        <p>Currently, I am pursuing a Software Engineering program at RevoU. As a starting point to explore the vast world of Software Engineering, I have come to realize that writing code is not just a technical skill — but a way of thinking.</p>
-
-        <p>This website is a representation of my ongoing learning journey.</p>
-        
+  <!-- SECTION 2 : ABOUT DESIGN -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <div class="img-box">
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/about1.png" alt="about image tablet">
+            <img src="images/about.png" alt="about image dekstop">
+          </picture>
       </div>
-    </section>
+    </div>
 
-    <!-- Experience section design -->
-     <section class="experience" id="experience">
-      <h1 class="heading">My <span>Journey</span></h1>
+    <!-- ABOUT CONTENT -->
+    <div class="about-content">
+      <h1 class="heading">About <span>Me</span></h1>
 
-      <div class="experience-row">
-        <div class="experience-column">
-          <h2 class="title">Education</h2>
+      <h2><span>Future Software Engineer</span></h2>
 
-          <div class="experience-box">
-            <div class="experience-content">
-              <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>2011 - 2015</div>
-                <h3>Bachelor Degree - University</h3>
-                <p>Information System Major at Multimedia Nusantara University</p>
-              </div>
+      <p>My name is Leonardus Rio. I studied Information Systems in college in 2011. After graduating, I built my career
+        in the Food and Beverage industry, where I worked until 2026.</p>
+
+      <h3>Currently, I am pursuing a Software Engineering program at RevoU. As a starting point to explore the vast world
+        of Software Engineering, I have come to realize that writing code is not just a technical skill — but a way of
+        thinking.</h3>
+
+      <p>This website is a representation of my ongoing learning journey.</p>
+      
+      <!-- PROGRAMMING LANGUAGE LIST-->
+      <div class="prog-lang">
+        <h2><span> Programming Language : </span></h2>
+        <div class="list">
+          <div class="cell">
+            <img src="images/html-logo.png" alt="html logo">
+            <p>HTML</p>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.png" alt="css logo">
+            <p>CSS</p>
+          </div>
+
+          <div class="cell">
+            <img src="images/javascript-logo.png" alt="javascript logo">
+            <p>Javascript</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 3 : JOURNEY DESIGN -->
+  <section class="journey" id="journey">
+    <h1 class="heading">My <span>Journey</span></h1>
+
+    <div class="journey-container container grid">
+      <div class="journey-tabs">
+        <button class="journey-btn journey-active" data-target="#education">Education<i
+            class="bx bxs-graduation"></i></button>
+
+        <button class="journey-btn" data-target="#experience">Experience<i class="bx bx-briefcase"></i></button>
+      </div>
+     
+      
+      <div class="journey-area">
+        <div class="journey-line"></div>
+
+          <!--Content Education-->
+          <div class="journey-content journey-active" data-content id="education">
+            <div class="journey-card">
+              <div class="journey-data">
+                <div>
+                  <h1 class="journey-title">Bachelor <br> Degree</h1>
+                  <h3 class="journey-subtitle">University</h3>
+                </div>
+
+                <span class="journey-year"><i class="bx bxs-calendar"></i>2011 - 2015</span>
+               </div> 
+              
+              <p class="journey-description">Information System Major at Multimedia Nusantara University</p>
+              
             </div>
 
-            <div class="experience-content">
-              <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>2015 - 2017</div>
-                <h3>Diploma Degree - Vocational Institute</h3>
-                <p>Learn Culinary Business at Jakarta Culinary Centre</p>
+            <div class="journey-card">
+              <div class="journey-data">
+                <div>
+                  <h1 class="journey-title">Diploma <br> Degree</h1>
+                  <h3 class="journey-subtitle">Vocational Institute</h3>
+                </div>
+                <span class="journey-year"><i class="bx bxs-calendar"></i>2015 - 2017</span>
               </div>
+
+              <p class="journey-description">Learn Culinary Business at Jakarta Culinary Centre</p>
+
             </div>
 
-            <div class="experience-content">
-              <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>2026 - now</div>
-                <h3>On going Education - Bootcamp</h3>
-                <p>Taking Fullstack Software Engineer at RevoU</p>
+            <div class="journey-card">
+              <div class="journey-data">
+                <div>
+                  <h1 class="journey-title">On going <br> Education</h1>
+                  <h3 class="journey-subtitle">Bootcamp</h3>
+                </div>
+                <span class="journey-year"><i class="bx bxs-calendar"></i>2026 - now</span>
               </div>
+
+              <p class="journey-description">Taking Fullstack Software Engineer at RevoU</p>
+
             </div>
-            
+          </div>
+
+          <!--Content Experience-->
+          <div class="journey-content" data-content id="experience">
+              <div class="journey-card">
+                <div class="journey-data">
+                  <div>
+                    <h1 class="journey-title">Digital <br> Marketing</h1>
+                    <h3 class="journey-subtitle">Company</h3>
+                  </div>
+                  <span class="journey-year"><i class="bx bxs-calendar"></i>2014 - 2015</span>
+                </div>
+
+                <p class="journey-description">Internship at Multimedia company specialize in Ads</p>
+              </div>
+
+              <div class="journey-card">
+                <div class="journey-data">
+                  <div>
+                    <h1 class="journey-title">Web <br> Developer</h1>
+                    <h3 class="journey-subtitle">Company</h3>
+                  </div>
+                  <span class="journey-year"><i class="bx bxs-calendar"></i>2021 - 2022</span>
+                </div>
+
+                <p class="journey-description">Web Developer and Design in Publishing and Printing company</p>
+              </div>
+
+              <div class="journey-card">
+                <div class="journey-data">
+                  <div>
+                    <h1 class="journey-title">Chef <br>& Barista</h1>
+                    <h3 class="journey-subtitle">Company</h3>
+                  </div>
+                  <span class="journey-year"><i class="bx bxs-calendar"></i>2015 - 2026</span>
+                </div>
+
+                <p class="journey-description">Has been in Pullman Hotel Thamrin for 3 months, Kini Hotel at Pontianak 3
+                  months, and own a restaurant and coffeeshop</p>
+
+              </div>
+          </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4 : PORTFOLIO DESIGN -->
+  <section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>Project</span></h1>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/portfolio1.jpg" alt="bibliopedia image project">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>Bibliopedia.id is a WordPress-based website that includes blog and comment features.</p>
+          <a href="https://bibliopedia.id/"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 5 : CONTACT DESIGN -->
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact <span>Me</span></h1>
+    <div class="contact-container">
+      <div class="contact-box">
+        <h2>Let's Work Together</h2>
+        <p class="desc">
+        I’m currently transitioning into software engineering and building real-world projects.
+        <br>
+        Open to collaboration, learning opportunities, and entry-level roles.
+        <br> 
+        Let’s connect and create something meaningful together.
+        </p>
+
+        <div class="contact-detail">
+          <i class='bx bxs-phone'></i>
+          <div class="detail">
+            <p>Phone</p>
+            <p>(+62) 819 367 223 35</p>
           </div>
         </div>
 
-        <div class="experience-column">
-          <h2 class="title">Experience</h2>
-
-          <div class="experience-box">
-            <div class="experience-content">
-              <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>2014 - 2015</div>
-                <h3>Digital Marketing - Company</h3>
-                <p>Internship at Multimedia company specialize in Ads</p>
-              </div>
-            </div>
-
-            <div class="experience-content">
-              <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>2021 - 2022</div>
-                <h3>Web Developer - Company</h3>
-                <p>Web Developer and Design in Publishing and Printing company</p>
-              </div>
-            </div>
-
-            <div class="experience-content">
-              <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>2015 - 2026</div>
-                <h3>Chef and Barista - Company</h3>
-                <p>Has been in Pullman Hotel Thamrin for 3 months, Kini Hotel at Pontianak 3 months, and own a restaurant and coffeeshop</p>
-              </div>
-            </div>
-            
-          </div>
-        </div>  
-
-      </div>
-     </section>
-
-    <!-- project section design -->
-    <section class="portfolio" id="portfolio">
-        <h1 class="heading">My <span>Project</span></h1>
-
-        <div class="portfolio-container">
-          <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="bibliopedia image project">
-            <div class="portfolio-layer">
-              <h4>Web Design</h4>
-              <p>Bibliopedia.id is a WordPress-based website that includes blog and comment features.</p>
-              <a href="https://bibliopedia.id/"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-
-          <div class="portfolio-box">
-            <img src="images/portfolio2.jpg" alt="Belum Keisi Project">
-            <div class="portfolio-layer">
-              <h4>Not Yet</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ea!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-
-          <div class="portfolio-box">
-            <img src="images/portfolio3.jpg" alt="Belum Keisi Project">
-            <div class="portfolio-layer">
-              <h4>Not Yet</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, possimus!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-      <h1 class="heading">Contact <span>Me</span></h1>
-
-      <form>
-        <div class="input-box">
-
-          <div class="field">
-            <label>Full Name</label>
-            <input required type="text" placeholder="Full Name">
-          </div>
-
-          <div class="field">
-            <label>Email Address</label>
-            <input required type="email" placeholder="Email Address">
-          </div>
-
-          <div class="field">
-            <label>Phone Number</label>
-            <input required type="tel" placeholder="Phone Number">
-          </div>
-
-          <div class="field">
-            <label>Subject</label>
-            <input required type="text" placeholder="Email Subject">
+        <div class="contact-detail">
+          <i class='bx bxs-envelope'></i>
+          <div class="detail">
+            <p>Email</p>
+            <p>leonardus.rc@gmail.com</p>
           </div>
         </div>
 
-        <div class="field">
-          <label>Your Message</label>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="contact-detail">
+          <i class='bx bxs-map'></i>
+          <div class="detail">
+            <p>Location</p>
+            <p>Karawaci, Tangerang</p>
+          </div>
         </div>
 
-        <input type="submit" value="Send Message" class="btn">
-      </form>
-    </section>
-
-    <!-- footer design -->
-     <footer class="footer">
-      <div class="footer-text">
-        <p>Copyright &copy; 2026 by Leonardus Rio | All Right Reserved</p>
       </div>
+      
+      <!-- INPUT FORM -->
+      <div class="contact-box">
+        <form>
+          <div class="input-box">
 
-      <div class="footer-iconTop">
-        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            <div class="field">
+              <label>Full Name</label>
+              <input required type="text" placeholder="Your Full Name">
+            </div>
+
+            <div class="field">
+              <label>Email Address</label>
+              <input required type="email" placeholder="youremail@example.com">
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <input required type="tel" placeholder="+62 812-3456-7890">
+            </div>
+
+            <div class="field">
+              <label>Subject</label>
+              <input required type="text" placeholder="Contact Subject">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Your Message</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message here ..."></textarea>
+          </div>
+
+          <input type="submit" value="Send Message" class="btn">
+        </form>
       </div>
-     </footer>
+    </div>
+  </section>
 
+  <!-- FOOTER DESIGN -->
+  <footer class="footer">
 
-  </body>
+  <div class="footer-container">
+
+    <!-- LOGO -->
+    <div class="footer-logo">
+      <img src="images/logo.png" alt="logo">
+      <p>Building my journey in software engineering.</p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <a href="https://www.linkedin.com/in/leonardusrio/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Stayonclassic" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/sweettoothyo/" target="_blank">Instagram</a>
+    </div>
+
+    <!-- ICONTOP -->
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>Copyright &copy; 2026 Leonardus Rio | All Rights Reserved</p>
+  </div>
+
+  </footer>
+
+  <!-- SCROLL REVEAL ANIMATION -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- CUSTOM JS ANIMATION -->
+  <script src="script.js"></script>
+
+</body>
+
 </html>

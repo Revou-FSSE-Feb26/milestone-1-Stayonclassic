@@ -1,119 +1,144 @@
-# Personal Website --- Leonardus Rio
+# Personal Website — Leonardus Rio
 
-Personal portfolio website built to showcase my journey into **Software
-Engineering**, my background, projects, and experience.
+A personal portfolio website built to showcase my journey into **Software Engineering**, including my background, projects, and growing skill set.
 
-This website represents my transition from the **Food & Beverage
-industry into the tech world**, and documents my growth as a developer.
+This website represents my transition from the **Food & Beverage industry into the tech world**, documenting both my technical progress and design approach.
 
 ------------------------------------------------------------------------
 
-# About Me
+## About Me
 
 Hello! I am **Leonardus Rio**.
 
-I previously studied **Information Systems at Multimedia Nusantara
-University**, and after graduating I spent many years working in the
-**Food & Beverage industry** as a **Chef, Barista, and Restaurant
-Owner**.
+I studied **Information Systems at Multimedia Nusantara University**, then built my career in the **Food & Beverage industry** as a **Chef, Barista, and Restaurant Owner**.
 
-In **2026**, I decided to return to my passion for technology and
-started studying **Fullstack Software Engineering at RevoU Bootcamp**.
+In **2026**, I decided to return to my passion for technology and began studying **Fullstack Software Engineering at RevoU Bootcamp**.
 
-For me, writing code is not just a technical skill --- it is **a way of
-thinking and solving problems**.
-
-This website is a reflection of my **learning journey in software
-engineering**.
+For me, writing code is not just a technical skill — it is a **way of thinking, solving problems, and creating meaningful digital experiences**.
 
 ------------------------------------------------------------------------
 
-# Features
+## Features
 
-This personal website includes:
+This website includes:
 
-**Home Section**
-    -   Introduction
-    -   Social media links and icons
+### Navbar
+* Glassy looks, Animation on scroll
+* Menu burger button
 
-**About Me**
-    -   Background story
-    -   Career transition
+### Home
 
-**Experience**
-    -   Education history timeline
-    -   Professional experience timeline
-    -   hover effect portfolio
+* Personal introduction
+* Social media links with interactive icons
 
-**Projects**
-    -   Portfolio showcase
+### About
 
-**Contact**
-    -   Contact form
-    -   Social media connections
+* Background story and career transition
+* Highlighted key statement
+* Different picture responsiveness
+* Programming language showcase
 
-------------------------------------------------------------------------
+### Journey
 
-# Tech Stack
+* Education and experience timeline
+* Tab-based interaction (Education / Experience)
+* Clean responsive layout
 
-This website is built using:
+### Projects
 
--   HTML5
--   CSS3
+* Portfolio showcase with hover effects
+* External project links
 
-------------------------------------------------------------------------
+### Contact
 
-# Project Structure
+* Contact form UI
+* Direct contact information
+* Clear call-to-action message
 
-    Milestone-1-LeonardusRio
-    │
-    ├── index.html
-    ├── style.css
-    │
-    ├── images
-    │   ├── home.png
-    │   ├── about.png
-    │   ├── portfolio1.jpg
-    │   ├── portfolio2.jpg
-    │   ├── portfolio3.jpg
-    │
-    └── README.md
+### Footer
+
+* Structured layout (Logo, Quick Links, Social Links)
+* Scroll-to-top button
+* Clean and responsive design
 
 ------------------------------------------------------------------------
 
-# How to Run the Project
+## Tech Stack
 
-1.  Clone this repository
+This project is built using:
 
-``` bash
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* ScrollReveal (for animations)
+
+------------------------------------------------------------------------
+
+## Design Approach
+
+* Desktop-first responsive layout
+* CSS Grid and Flexbox for structured layouts
+* Consistent spacing system using CSS variables
+* Modern UI with subtle gradients and glow effects
+* Focus on readability, hierarchy, and clean composition
+
+------------------------------------------------------------------------
+
+## Project Structure
+
+```
+Milestone-1-LeonardusRio
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── images
+│   ├── home.png
+│   ├── about.png
+│   ├── about1.png
+│   ├── portfolio1.jpg
+│   ├── css-logo.png
+│   ├── html-logo.png
+│   ├── javascript-logo.png
+│
+└── README.md
+```
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/Revou-FSSE-Feb26/milestone-1-Stayonclassic.git
 ```
 
-2.  Open the project folder
+2. Open the project folder
 
-3.  Run the website by opening:
+3. Run the project by opening:
 
-    index.html
+```
+index.html
+```
 
 in your browser.
 
 ------------------------------------------------------------------------
 
-# Live Preview
+## Live Preview
 
-If deployed with **GitHub Pages**, the website can be accessed at:
+If deployed using GitHub Pages:
 
-        https://github.com/Revou-FSSE-Feb26/milestone-1-Stayonclassic.git
+https://revou-fsse-feb26.github.io/milestone-1-Stayonclassic/
 
-    
 ------------------------------------------------------------------------
 
-# Future Improvements
+## Future Improvements
 
-Planned improvements for the website:
-
--   Add more portfolio projects
--   Connect contact form to backend service
--   Improve responsive design
--   Add dark mode
--   Add animations and micro-interactions
+* Add more real-world projects
+* Connect contact form to backend service
+* Improve mobile responsiveness
+* Add more micro-interactions and animations
+* Optimize performance and accessibility
