@@ -26,18 +26,18 @@ window.onscroll = () => {
         };
     });
 
-/*==================== STICKY NAVBAR ====================*/
+// STICKY NAVBAR 
     const header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
 
-/*====== REMOVE TOGGLE ICON AND NAVBAR WHEN CLICK NAVBAR LINK (SCROLL) ======*/
+// REMOVE TOGGLE ICON AND NAVBAR WHEN CLICK NAVBAR LINK (SCROLL)
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
 
 
-/*==================== SCROLL REVEAL ANIMATION ====================*/
+/*================ SCROLL REVEAL ANIMATION ================*/
     ScrollReveal ({ 
         reset: true,
         distance: '80px',
@@ -45,7 +45,7 @@ window.onscroll = () => {
         delay: 200
     });
 
-    ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
+    ScrollReveal().reveal('.home-content, .heading, section', { origin: 'top'});
     ScrollReveal().reveal('.home-img, .journey-area, .portfolio-box, .contact', { origin: 'bottom'});
     ScrollReveal().reveal('.home-content h1, .about-img, .journey-container', { origin: 'left'});
     ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
