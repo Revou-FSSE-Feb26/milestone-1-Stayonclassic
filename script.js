@@ -57,16 +57,26 @@ const tabs = document.querySelectorAll('[data-target]'),
 
 tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-        const targetSelector = tab.dataset.target,
-        targetContent = document.querySelector(targetSelector)
+        const targetSelector = tab.dataset.target
+        const targetContent = document.querySelector(targetSelector)
 
         // Disable all content and active tabs
-        tabContents.forEach((content) => content.classList.remove('journey-active'))
-        tabs.forEach((t) => t.classList.remove('journey-active'))
+        tabContents.forEach((content) =>
+            content.classList.remove('journey-active')
+        )
+        tabs.forEach((t) =>
+            t.classList.remove('journey-active')
+        )
 
-        // active the tab and corresponding content
+        // Activate tab
         tab.classList.add('journey-active')
-        targetContent.classList.add('journey-active')
+
+        // Guard clause to check if targetContent exists
+        if (targetContent) {
+            targetContent.classList.add('journey-active')
+        } else {
+            console.warn(`Target not found: ${targetSelector}`)
+        }
     })
 })
 
@@ -89,6 +99,7 @@ const activePortfolio = () => {
     portfolioDetails[index].classList.add('active');
 };
 
+// Navigation arrow click event listeners
 arrowRight.addEventListener('click', () => {
     if (index < 2) { 
         index++;
