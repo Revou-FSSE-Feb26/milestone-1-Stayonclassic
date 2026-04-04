@@ -46,8 +46,9 @@ This website includes:
 
 ### Projects
 
-* Portfolio showcase with hover effects
+* Portfolio showcase with carousel
 * External project links
+* Tab-based interaction each card
 
 ### Contact
 
@@ -95,12 +96,16 @@ Milestone-1-LeonardusRio
 │
 ├── images
 │   ├── home.png
+│   ├── bg.png
+│   ├── logo.png
 │   ├── about.png
 │   ├── about1.png
-│   ├── portfolio1.jpg
+│   ├── portfolio1.JPG
+│   ├── portfolio2.jpg
+│   ├── portfolio3.jpg
 │   ├── css-logo.png
 │   ├── html-logo.png
-│   ├── javascript-logo.png
+│   └── javascript-logo.png
 │
 └── README.md
 ```
@@ -142,3 +147,17 @@ https://revou-fsse-feb26.github.io/milestone-1-Stayonclassic/
 * Improve mobile responsiveness
 * Add more micro-interactions and animations
 * Optimize performance and accessibility
+
+------------------------------------------------------------------------
+
+## My Reference Links
+
+All the link that come to my reference to build this website :
+
+* https://www.youtube.com/watch?v=KqqoL9G7j-c
+* https://www.youtube.com/watch?v=qxxanKFR7js&t=3873s
+* https://www.youtube.com/watch?v=0yVevatvKak&t=19s
+* https://www.youtube.com/watch?v=sQoiM7i5Nqc&t=319s
+* https://www.youtube.com/watch?v=Tkp3FDgOueM&t=3940s
+* https://www.youtube.com/watch?v=sF0vW0GgL3U&t=35s
+* https://www.youtube.com/watch?v=orS45Aj8g8Q&t=124s
