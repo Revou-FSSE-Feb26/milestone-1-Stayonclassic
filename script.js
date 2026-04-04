@@ -46,9 +46,9 @@ window.onscroll = () => {
     });
 
     ScrollReveal().reveal('.home-content, .heading, section', { origin: 'top'});
-    ScrollReveal().reveal('.home-img, .journey-area, .portfolio-box, .contact', { origin: 'bottom'});
+    ScrollReveal().reveal('.home-img, .journey-area, .contact', { origin: 'bottom'});
     ScrollReveal().reveal('.home-content h1, .about-img, .journey-container', { origin: 'left'});
-    ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
+    ScrollReveal().reveal('.home-content p, .about-content, .portfolio-box', { origin: 'right'});
 
 
 /*================ SHOW & HIDE TABS ON JOURNEY SECTION ================*/
@@ -69,3 +69,48 @@ tabs.forEach((tab) => {
         targetContent.classList.add('journey-active')
     })
 })
+
+/*================ SHOW & HIDE CAROUSEL ON PORTFOLIO SECTION ================*/
+const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-right');
+const arrowLeft = document.querySelector('.portfolio-box .navigation .arrow-left');
+
+let index = 0;
+
+const activePortfolio = () => {
+    const imgSlide = document.querySelector('.portfolio-carousel .img-slide');
+    const portfolioDetails = document.querySelectorAll('.portfolio-detail');
+
+    imgSlide.style.transform = `translateX(calc(${index * -100}% - ${index * 2}rem))`;
+
+    portfolioDetails.forEach(detail => {
+        detail.classList.remove('active');
+    });
+
+    portfolioDetails[index].classList.add('active');
+};
+
+arrowRight.addEventListener('click', () => {
+    if (index < 2) { 
+        index++;
+        arrowLeft.classList.remove('disabled');
+    }
+
+    if (index === 2) {
+        arrowRight.classList.add('disabled');
+    }
+
+    activePortfolio();
+});
+
+arrowLeft.addEventListener('click', () => {
+    if (index > 0) { 
+        index--;
+        arrowRight.classList.remove('disabled');
+    }
+
+    if (index === 0) {
+        arrowLeft.classList.add('disabled');
+    }
+
+    activePortfolio();
+});

@@ -16,6 +16,7 @@
 
   <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -229,18 +230,70 @@
   <!-- SECTION 4 : PORTFOLIO DESIGN -->
   <section class="portfolio" id="portfolio">
     <h1 class="heading">My <span>Project</span></h1>
-
     <div class="portfolio-container">
       <div class="portfolio-box">
-        <img src="images/portfolio1.jpg" alt="bibliopedia image project">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Bibliopedia.id is a WordPress-based website that includes blog and comment features.</p>
-          <a href="https://bibliopedia.id/"><i class='bx bx-link-external'></i></a>
+        <div class="portfolio-detail active">
+          <h2 class="numb">01</h2>
+          <h3>Web Design</h3>
+          <p>Bibliopedia is a digital platform combining bookstore, publishing services, and content hub for articles, ebooks, and creative writing.</p>
+          <div class="tech">
+            <h4>Wordpress</h4>
+          </div>
+          <div class="live-github">
+            <a href="https://bibliopedia.id/" target="_blank"><i class="bx bx-arrow-back"></i><p>Live Project</p></a>
+            <a href="https://bibliopedia.id/" target="_blank"><i class="bx bxl-github"></i><p>Github Repository</p></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <h2 class="numb">02</h2>
+          <h3>Full Stack Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptas esse recusandae odio nemo accusamus illum alias quis, placeat doloribus.</p>
+          <div class="tech">
+            <h4>MongoDB, Express.js, React.js, Node.js</h4>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class="bx bx-arrow-back"></i><p>Live Project</p></a>
+            <a href="#"><i class="bx bxl-github"></i><p>Github Repository</p></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <h2 class="numb">03</h2>
+          <h3>Frontend Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptas esse recusandae odio nemo accusamus illum alias quis, placeat doloribus.</p>
+          <div class="tech">
+            <h4>React.js, Tailwind CSS</h4>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class="bx bx-arrow-back"></i><p>Live Project</p></a>
+            <a href="#"><i class="bx bxl-github"></i><p>Github Repository</p></a>
+          </div>
         </div>
       </div>
 
-    </div>
+      <!-- IMAGE CAROUSEL-->
+      <div class="portfolio-box">
+        <div class="portfolio-carousel">
+          <div class="img-slide">
+            <div class="img-item">
+              <img src="images/portfolio1.jpg">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio2.jpg">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio3.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <button class="arrow-left disabled"><i class="bx bx-chevron-left"></i></button>
+          <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>   
   </section>
 
   <!-- SECTION 5 : CONTACT DESIGN -->
@@ -366,7 +419,7 @@
   <script src="https://unpkg.com/scrollreveal"></script>
 
   <!-- CUSTOM JS ANIMATION -->
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 
 </body>
 
